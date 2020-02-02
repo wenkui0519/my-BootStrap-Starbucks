@@ -1,0 +1,86 @@
+{
+  "id": "1592588",
+  "name": "星巴克",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "554029",
+      "name": "更多",
+      "font_class": "iconset0134",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1002521",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1604939",
+      "name": "账户管理",
+      "font_class": "weibiaoti5",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "5191506",
+      "name": "咖啡",
+      "font_class": "kafei",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "5269233",
+      "name": "门店",
+      "font_class": "mendian",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "6204091",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7155218",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "10031751",
+      "name": "菜单",
+      "font_class": "caidan1",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "10156391",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "10809884",
+      "name": "向左 箭头",
+      "font_class": "changyongtubiao-xianxingdaochu-zhuanqu-",
+      "unicode": "e74a",
+      "unicode_decimal": 59210
+    },
+    {
+      "icon_id": "10809885",
+      "name": "向右 箭头",
+      "font_class": "changyongtubiao-xianxingdaochu-zhuanqu-1",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    }
+  ]
+}

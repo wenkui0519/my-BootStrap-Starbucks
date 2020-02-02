@@ -1,0 +1,206 @@
+html {
+    font-size: 62.5% !important;    /* 取默认字体的百分比 */
+}
+@media (min-width: 992px){
+    html {
+        font-size: 62.5%;
+    }
+}
+@media (min-width: 768px){
+    html {
+        font-size: 59%;
+    }
+}
+@media (min-width: 576px){
+    html {
+        font-size: 56%
+    }
+}
+body{
+    overflow-x: hidden;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*  */
+@font-face {
+    font-family: 'iconfont';
+    src: url('./1/iconfont.eot');
+    src: url('./1/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./1/iconfont.woff2') format('woff2'),
+        url('./1/iconfont.woff') format('woff'),
+        url('./1/iconfont.ttf') format('truetype'),
+        url('./1/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+font-family: "iconfont" !important;
+font-size: 16px;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+/*  */
+.leftCon{
+    left: 0;
+}
+.leftCon header{
+    height: 80px;
+}
+.leftCon header ul a{
+    font-size: 1.6rem;
+}
+.leftCon .icon-menu {
+    font-size: 3rem;
+    cursor: pointer;
+    color: #858585;
+}
+@media (max-width:991.98px){
+    .leftCon{
+        position: relative!important;
+    }
+    .leftCon .body{
+        height: auto!important;
+        left: 0;
+    }
+}
+.leftCon .body{
+    height: calc(100vh - 80px);
+}
+.leftCon .body h4{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.leftCon .body a,.leftCon .menu a{
+    color: #00A862;
+    font-size:1.6rem;
+}
+.leftCon .body .menu1{
+    font-size: 1.6rem;
+}
+.leftCon .body .reset,.leftCon .menu .reset{
+    border-radius: 13px;
+}
+.btn-outline-success:hover {
+    color: #fff!important;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.leftCon .menu {
+    position: absolute;
+    left: 0;top: 0;
+    height: 100vh;
+    width:100%;
+    height: 100vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1000;
+    transition: all .3s;
+}
+.menu.hide{
+    opacity: 0;
+    transform: scale(2);
+    z-index: -1;
+}
+.menu.show{
+    opacity: 1;
+    transform: scale(1);
+}
+.leftCon .menu .icon-menu {
+    font-size: 2rem;
+}
+.leftCon .menu ul a {
+    font-size: 1.8rem;
+}
+.leftCon .menu footer a{
+    font-size: 1.4rem;
+}
+.leftCon .menu footer a{
+    color:rgba(0,0,0,0.38);
+}
+/* right */
+#pic .next-btn span{
+    font-size: 6rem;
+    transition: all .3s;
+}
+
+/* @media (max-width:539.8px){
+} */
+.t-pic a img{
+    box-shadow:0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    transition: all .2s;
+}
+.t-pic a img:hover{
+    margin-top: -3px;
+    box-shadow:0 1px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.start h2,.best h3,.swiper2 h3{
+    font-weight: bold;
+	font-size: 2.2rem;
+}
+.start p,.best div:first-of-type p,.swiper2 div:first-of-type p{
+	font-size: 1.6rem;
+	line-height: 34px;
+}
+.start button{
+	font-size: 1.8rem;
+}
+.start a{
+	color: #C2A661;
+}
+.start button{
+    border-radius: 18px;
+}
+.best li{
+    margin-top: 56px;
+}
+.best li a{
+    transition: 0.2s;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+}
+.best li a:hover{
+    margin-top: -3px;
+    box-shadow: 0 1px 2px 2px rgba(0,0,0,0.12);
+}
+.best li a img {
+    width: 60%;
+    margin-top: -28px;
+}
+.best li a h4{
+    font-size: 1.6rem;
+}
+.best li a p{
+    font-size: 1.4rem;
+    line-height: 28px;
+}
+.best li a p.caption{
+    font-size: 1.2rem;
+    color: #C2A661;
+    opacity: 0.7;
+}
+.scroll li{
+	transition: 0.2s;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+}
+.scroll li span{
+	font-size: 1.4rem;
+	background: #C2A661;
+	left: 0;
+	top: 6px;
+}
+.scroll li:hover{
+	box-shadow: 0 0 1px 2px rgba(0,0,0,0.22);
+	transform: translateY(-5px);
+}
+
+.footer ul{
+    margin-bottom: 0.8rem;
+}
+.footer ul li a .icon-menu{
+    font-size: 2.5rem;
+}
+.footer a.active {
+    color: #00A862!important;
+}
